@@ -26,7 +26,7 @@ Ping.Size = UDim2.new(0.200000003, 0, 0, 34)
 Ping.SizeConstraint = Enum.SizeConstraint.RelativeXX
 Ping.Font = Enum.Font.SourceSans
 Ping.Text = "Ping: nil"
-Ping.TextColor3 = Color3.new(1, 1, 1)
+Ping.TextColor3 = Color3.new(255, 1, 1)
 Ping.TextSize = 40
 Ping.TextWrapped = true
 
@@ -39,7 +39,7 @@ FPS.Size = UDim2.new(0.200000003, 0, 0, 34)
 FPS.SizeConstraint = Enum.SizeConstraint.RelativeXX
 FPS.Font = Enum.Font.SourceSans
 FPS.Text = "FPS: nil"
-FPS.TextColor3 = Color3.new(1, 1, 1)
+FPS.TextColor3 = Color3.new(255, 1, 1)
 FPS.TextSize = 40
 FPS.TextWrapped = true
 
