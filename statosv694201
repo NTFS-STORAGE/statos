@@ -77,8 +77,8 @@ function SCRIPT_NDMS87_FAKESCRIPT() -- Frame.LocalScript
 	game:GetService("RunService").RenderStepped:Connect(function()
 		local pos = plr.Character.HumanoidRootPart.CFrame.Position
 		local health = plr.Character:FindFirstChildOfClass("Humanoid").Health
-		labels.Ping.Text = "Client [Your] Ping: " ..game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
-		labels.FPS.Text = "ServerSide [Others] FPS: " .. fps
+		labels.Ping.Text = "Client Ping: " ..game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
+		labels.FPS.Text = "ServerSide FPS: " .. fps
 	end)
 	while wait() do
 		fps = round(2/wait())
