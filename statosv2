@@ -1,4 +1,4 @@
-game:GetService("RunService"):Set3dRenderingEnabled(false)
+game.Lighting.Ambient = Color3.new(255,255,255)
 local StatusBar = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Ping = Instance.new("TextLabel")
