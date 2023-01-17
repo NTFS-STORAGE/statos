@@ -1,4 +1,4 @@
-game.Lighting.Ambient = Color3.new(255,255,255)
+game.Lighting.Ambient = Color3.new(0,0,255)
 local StatusBar = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Ping = Instance.new("TextLabel")
